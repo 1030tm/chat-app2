@@ -9,11 +9,36 @@
 .side-top {
   height: 100px;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-name a{
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+.chat-btn a{
+  border: 1px solid lightblue;
+  padding: 14px;
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
 }
 .side-main {
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
+}
+.side-chat-room {
+  padding: 20px 0 40px 0;
+
+}
+.side-chat-room a{
+  text-decoration: none;
+  color: white;
 }
 .chat {
   background-color: #ffffff;
